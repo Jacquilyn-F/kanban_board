@@ -39,40 +39,21 @@ To run this project locally, ensure you have the following installed:
     ```bash
     DB_USERNAME=your_database_username
     DB_PASSWORD=your_database_password
-    JWT_SECRET=your_secret_key
+    JWT_SECRET='your_secret_key'
     ```
 
 3. **Install Dependencies**:
 
     Install both frontend and backend dependencies.
 
-    For the frontend (React app):
-
     ```bash
-    cd client
     npm install
     ```
-
-    For the backend (Express server):
-
-    ```bash
-    cd ../server
-    npm install
-    ```
-
+    
 4. **Run the Application Locally**:
 
-    - Start the backend server:
-
     ```bash
-    npm run dev
-    ```
-
-    - Start the frontend development server:
-
-    ```bash
-    cd ../client
-    npm start
+      npm run start:dev
     ```
 
 5. **Access the Application**:

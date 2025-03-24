@@ -18,6 +18,7 @@ This project implements a Kanban board application with secure user authenticati
 The application is deployed to Render and can be accessed at the following live URL:
 
 - [Live Application](https://kanban-board-ynbc.onrender.com)  
+- [GitHub](https://github.com/Jacquilyn-F/kanban_board)  
 
 ## Technologies Used
 

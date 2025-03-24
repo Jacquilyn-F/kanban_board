@@ -18,9 +18,9 @@ export const authenticateToken = (req: Request, res: Response, next: NextFunctio
       return res.status(403).json({ message: 'Invalid token' });
     }
 
-    req.user = user as JwtPayload; // Assuming `req.user` is properly typed elsewhere
-    return next(); // Explicitly return next() to satisfy TypeScript
+    req.user = user as JwtPayload; 
+    return next(); 
   });
 
-  return; // Add a return statement to ensure all code paths return
+  return; 
 };

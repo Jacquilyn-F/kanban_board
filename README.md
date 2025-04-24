@@ -1,4 +1,4 @@
-# Kanban Board with Authentication
+# Kanban Board 
 
 ## Project Overview
 
